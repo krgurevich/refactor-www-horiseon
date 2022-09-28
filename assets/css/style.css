@@ -2,17 +2,16 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
-/* moved font-family declaration from other selectors under the universal selector */
-
+/* moved font-family declaration from other selectors to the body selector */
 body {
     background-color: #d9dcd6;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/* replaced div element and class .header with header element */
+/* replaced div and class .header with header selector */
 header {
     padding: 20px;
     background-color: #2a607c;
@@ -32,7 +31,7 @@ h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/* removed class .header div and replaced with nav element */
+/* removed class .header div and replaced with nav selector */
 /* moved font-family to body selector */
 nav {
     padding-top: 15px;
@@ -41,12 +40,12 @@ nav {
     font-size: 20px;
 }
 
-/* removed class .header div and replaced with nav element */
+/* removed class .header div and replaced with nav selector */
 nav ul {
     list-style-type: none;
 }
 
-/* removed class .header div and replaced with nav element */
+/* removed class .header div and replaced with nav selector */
 nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -78,7 +77,8 @@ p {
 }
 
 /* replaced all three classes under services with one .services-article class */
-/* removed font-family to body selector */
+/* moved font-family to body selector */
+/* slightly increased the height property to align two columns (services and benefits) */
 .services-article {
     margin-bottom: 20px;
     padding: 50px;
@@ -108,7 +108,7 @@ p {
     margin-left: 25px;
 }
 
-/* moved font-family to universal selector */
+/* moved font-family to body selector */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -137,8 +137,8 @@ p {
     max-width: 150px;
 }
 
-/* replaced class .footer with footer element */
-/* removed font-family to body selector */
+/* replaced class .footer with footer selector */
+/* moved font-family to body selector */
 footer {
     padding: 30px;
     clear: both;

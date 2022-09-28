@@ -11,7 +11,9 @@
 <body>
     <header>
         <!-- changed div element to header element -->
-        <h1>Hori<span class="seo">seo</span>n</h1>
+        <h1>Hori<span role="presentation" class="seo">seo</span>n</h1>
+        <!-- applied ARIA presentation role to span element for accessibility -->
+
         <nav>
             <!-- Replaced div element with nav element -->
             <ul>
@@ -28,9 +30,10 @@
         </nav>
     </header>
 
-    <section class="hero"></section>
+    <section class="hero" role="img" aria-label="Meet the Horiseon Team"></section>
     <!-- replaced div element with section element -->
-  
+    <!-- applied ARIA img role to the section for accessibility -->
+
     <section class="services">
         <!-- replaced div element with section -->
         <!-- replaced class .content with .services -->
