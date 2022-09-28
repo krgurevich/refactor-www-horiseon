@@ -21,4 +21,5 @@ GitHub Repository: krgurevich/refactor-www-horiseon
 ## Screenshot
 
 ***
-<img src="./assets/images/screencapture.png alt="Screenshot of Webpage" title="Screenshot">
+![screencapture](https://user-images.githubusercontent.com/112983818/192833545-16ed1a0c-3d27-4253-a3f6-8e636c5a4d4f.png)
+
